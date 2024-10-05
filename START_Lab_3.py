@@ -4,7 +4,13 @@ def lab3Question1(number, cutoff):
     # Return True if the number is less than the cutoff, False otherwise
     # Also, print a statement of "[Number] is less than [cutoff]" or "[Number] is not less than [cutoff]"
     # Where the [Number] and [cutoff] are the actual numbers passed in
-    pass
+    If number < cutoff:
+        Return True
+        print(number is less than cutoff)
+    Else:
+        Return False
+        print(number is not less than cutoff)
+    
 
 def lab3Question2(decimal_number):
     # Take in an argument of a float (decimal) number.
@@ -19,6 +25,8 @@ def lab3Question3(year):
     # "19th century" if the year is between 1801 and 1900, 
     # "ancient" if the year is older
     # "invalid" if the input is not an acceptable year number. 
+    fYear = 
+
     pass
 
 def lab3Question4(number_1, number_2, number_3):
