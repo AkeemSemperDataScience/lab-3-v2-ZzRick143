@@ -4,19 +4,25 @@ def lab3Question1(number, cutoff):
     # Return True if the number is less than the cutoff, False otherwise
     # Also, print a statement of "[Number] is less than [cutoff]" or "[Number] is not less than [cutoff]"
     # Where the [Number] and [cutoff] are the actual numbers passed in
-    If number < cutoff:
-        Return True
+    if number < cutoff:
+        return True
         print(number is less than cutoff)
-    Else:
-        Return False
+    else:
+        return False
         print(number is not less than cutoff)
-    
 
 def lab3Question2(decimal_number):
     # Take in an argument of a float (decimal) number.
     # Return "zero" if the number is 0, "positive" if the number is positive, and "negative" if the number is negative
     # Return "invalid" if the input is not a float
-    pass
+    if decimal_number == 0:
+        return "zero"
+    elif decimal_number > 0:
+        return "positive"
+    elif decimal_number < 0:
+        return "negative"
+    else:
+        return "invalid"
 
 def lab3Question3(year):
     # Take in a number that represents a year
