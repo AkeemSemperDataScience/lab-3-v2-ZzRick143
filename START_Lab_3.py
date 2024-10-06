@@ -31,9 +31,16 @@ def lab3Question3(year):
     # "19th century" if the year is between 1801 and 1900, 
     # "ancient" if the year is older
     # "invalid" if the input is not an acceptable year number. 
-    fYear = 
-
-    pass
+    if year >= 2001 and year <= 2100:
+        return "21st century"
+    elif year >= 1901 and year <= 2000:
+        return "20th century"
+    elif year >= 1801 and year <= 1900:
+        return "19th century"
+    elif year > 2100:
+        return "ancient"
+    else:
+        return "invalid"
 
 def lab3Question4(number_1, number_2, number_3):
     # Take in three numbers as arguments
