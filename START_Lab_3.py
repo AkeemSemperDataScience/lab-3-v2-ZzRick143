@@ -52,8 +52,7 @@ def lab3Question4(number_1, number_2, number_3):
     for x in Nums:
         if type(x) != float and type(x) != int:
             return "None"
-        else:
-            return max(Nums)
+    return max(Nums)
     
 def lab3Question5(temperature, scale_used):
     # Take in a temperature and the scale that the temperature is in - either "C" for Celsius or "F" for Fahrenheit (capitalized)
