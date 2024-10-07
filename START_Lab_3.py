@@ -62,7 +62,7 @@ def lab3Question5(temperature, scale_used):
     # Return "Invalid" if the temperature or scale are invalid
     if type(temperature) != int:
         return "invalid"
-    if scaled_used == 'F':
+    if scale_used == 'F':
         temperature = (temperature * 9/5) + 32
     if temperature > 0 and temperature < 100:
         return "Liquid"
