@@ -63,13 +63,14 @@ def lab3Question5(temperature, scale_used):
     if type(temperature) != int:
         return "invalid"
     if scaled_used == 'F':
-        convertF = (temperature * 9/5) + 32
-        if convertF > 0 and convertF < 100:
-            return "Liquid"
-        elif convertF <= 0:
-            return "Solid"
-        elif convertF >= 100:
-            return "Gas"
+        temperature = (temperature * 9/5) + 32
+    if temperature > 0 and temperature < 100:
+        return "Liquid"
+    elif temperature <= 0:
+        return "Solid"
+    elif temperature >= 100:
+        return "Gas"
+    
         
 
     
