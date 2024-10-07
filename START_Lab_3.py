@@ -66,7 +66,7 @@ def lab3Question5(temperature, scale_used):
         convertF = (temperature * 9/5) + 32
         if convertF > 0 and convertF < 100:
             return "Liquid"
-        elif convertF =< 0:
+        elif convertF <= 0:
             return "Solid"
         elif convertF >= 100:
             return "Gas"
